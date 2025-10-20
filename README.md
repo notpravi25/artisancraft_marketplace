@@ -14,29 +14,6 @@ A modern React-based project utilizing the latest frontend technologies and tool
 - **Animation** - Framer Motion for smooth UI animations
 - **Testing** - Jest and React Testing Library setup
 
-## 📋 Prerequisites
-
-- Node.js (v14.x or higher)
-- npm or yarn
-
-## 🛠️ Installation
-
-1. Install dependencies:
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-   
-2. Start the development server:
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
-
-## 📁 Project Structure
-
 ```
 react_app/
 ├── public/             # Static assets
@@ -52,29 +29,9 @@ react_app/
 ├── package.json        # Project dependencies and scripts
 ├── tailwind.config.js  # Tailwind CSS configuration
 └── vite.config.js      # Vite configuration
-```
 
-## 🧩 Adding Routes
 
-To add new routes to the application, update the `Routes.jsx` file:
-
-```jsx
-import { useRoutes } from "react-router-dom";
-import HomePage from "pages/HomePage";
-import AboutPage from "pages/AboutPage";
-
-const ProjectRoutes = () => {
-  let element = useRoutes([
-    { path: "/", element: <HomePage /> },
-    { path: "/about", element: <AboutPage /> },
-    // Add more routes as needed
-  ]);
-
-  return element;
-};
-```
-
-## 🎨 Styling
+ Styling
 
 This project uses Tailwind CSS for styling. The configuration includes:
 
@@ -84,21 +41,11 @@ This project uses Tailwind CSS for styling. The configuration includes:
 - Container queries for component-specific responsive design
 - Fluid typography for responsive text
 - Animation utilities
-
-## 📱 Responsive Design
+- 
+Responsive Design
 
 The app is built with responsive design using Tailwind CSS breakpoints.
 
-
-## 📦 Deployment
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-## 🙏 Acknowledgments
 
 - Built with [Rocket.new](https://rocket.new)
 - Powered by React and Vite
